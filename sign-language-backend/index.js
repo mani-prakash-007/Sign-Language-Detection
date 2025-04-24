@@ -66,9 +66,16 @@ async function processWithModel(frameData) {
   // In a real implementation, this would send the frame to the ML model
   
   return new Promise((resolve) => {
-      const phrases = [
-        "Hello"
-      ];
+    const phrases = [
+      "Hello, how are you?",
+      "My name is John.",
+      "Nice to meet you.",
+      "Thank you for your help.",
+      "I need assistance please.",
+      "Could you please repeat that?",
+      "I understand what you're saying.",
+      "I'm learning sign language."
+    ];
       
       const randomPhrase = phrases[Math.floor(Math.random() * phrases.length)];
       resolve(randomPhrase);
