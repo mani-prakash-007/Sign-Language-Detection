@@ -1,0 +1,7 @@
+flask
+flask-socketio
+eventlet
+tensorflow-macos
+tensorflow-metal
+numpy
+pillow
